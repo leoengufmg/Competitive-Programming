@@ -1,0 +1,43 @@
+Why to use?
+	because is fast.
+	everything is stored in form of bits
+
+a >> b faster than (a / (2^b) )
+
+& AND
+| OR
+~ NOT
+<< LEFT SHIFT
+>> RIGHT SHIFT
+^ XOR
+
+AND
+A B A&B
+0 0 0
+0 1 0
+1 0 0
+1 1 1
+
+OR
+A B A|B
+0 0 0
+0 1 1
+1 0 1
+1 1 1
+
+XOR
+A B A^B
+0 0 0
+0 1 1
+1 0 1
+1 1 0
+
+multiply by 2
+5 << 1 = 10
+5 << 2 = 20
+5 << n = 5 * 2^n
+
+divide by 2
+5 >> 1 = 2
+5 >> 2 = 1
+5 >> n = 5 / (2^n)
