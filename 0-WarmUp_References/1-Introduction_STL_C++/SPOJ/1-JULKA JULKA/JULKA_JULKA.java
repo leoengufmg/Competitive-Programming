@@ -1,7 +1,9 @@
-/*
-Julka Julka spoj
+/* Julka Julka spoj (01:25:00)
 use big Integer to solve the equation
 x = (N-k)/2;
+
+P1 = x;
+P2 = x+k;
 */
 
 import java.math.BigInteger; 

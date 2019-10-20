@@ -19,6 +19,7 @@ bool compare(int a, int b)
 {
     return a>b;
 }
+
 int main(){
     vector<int> v;
     v.reserve(100);
@@ -38,7 +39,9 @@ int main(){
         cout<<v[i] << " ";
     }
     cout << "\n";
-
+	
+	// capacity() is equal the value used on "reserve()"
+	// size() is equal the position ocuppied on vector
     cout << "v.capacity() "<< v.capacity() <<"\nv.size() "<<v.size()<<"\nv.max_size() "<<v.max_size();
     v.clear();
     return 0;

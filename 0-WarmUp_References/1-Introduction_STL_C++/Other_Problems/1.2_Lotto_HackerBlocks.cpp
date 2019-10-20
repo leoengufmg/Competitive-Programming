@@ -1,4 +1,4 @@
-// Lotto (HackerBlocks)
+// Lotto (HackerBlocks) (00:25:00)
 /*
 In the German Lotto you have to select 6 numbers from the set (12_49). A popular strategy to play Lotto - although it doesnt increase your chance of winning - 
 is to select a subet S containing k (k > 6) of these 49 numbers and then play several games with choosing numbers only fro S. 

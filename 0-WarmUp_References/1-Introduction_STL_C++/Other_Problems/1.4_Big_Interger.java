@@ -1,5 +1,4 @@
-/*
-using java there is Big Interger Class
+/* using java there is Big Interger Class (01:07:00)
 1 modular arithmetic
 2 base conversion
 3 gcd calculation

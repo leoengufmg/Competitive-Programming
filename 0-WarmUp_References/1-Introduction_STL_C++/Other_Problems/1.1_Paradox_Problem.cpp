@@ -1,4 +1,4 @@
-// Paradox Problem
+// Paradox Problem (00:00:00)
 /*
    What is the minimum number of people that shoul be present in a room so that there's a 50% chance of two people having same birthday?
 
@@ -10,7 +10,7 @@ p = 1/365
 p = 365/365 
 
 2 persons in the room, prob have diff birtday
-p = 1 - 1/365 = 364/365
+p = 365/365 * 364/365
 
 3 persons in the room, prob have diff birtday
 p = 365/365 * 364/365 * 363/365

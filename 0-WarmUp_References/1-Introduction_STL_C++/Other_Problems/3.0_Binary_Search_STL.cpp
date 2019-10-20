@@ -9,6 +9,7 @@ using namespace std;
 
 /* T(n) = T(n/2) + k
     O(n) = O(Log(n))
+	Monotonic Function
 
     STL
         upper_bound(v.begin(), b.end(), 20);
@@ -17,13 +18,17 @@ using namespace std;
 */
 int main(){
     int intNumbers[] = {10, 20, 30, 30, 20, 10, 10, 20};
+	
+	// Putting an array inside vector
     vector<int> v(intNumbers, intNumbers+8);
     vector<int>::iterator low, up, it;
 
     sort(v.begin(), v.end());
+	
     for(it=v.begin(); it<v.end(); it++)
         cout<<*it<<" ";
     cout<<"\n\n";
+	
     up = upper_bound(v.begin(), v.end(), 20);
     low = lower_bound(v.begin(), v.end(), 20);
     

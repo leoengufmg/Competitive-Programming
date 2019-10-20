@@ -1,6 +1,8 @@
 /*
 Strings STL
 Name: Leonardo R. Andrade
+
+	string.lenght()
 */
 #include <iostream>
 #include <algorithm>
