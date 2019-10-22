@@ -26,6 +26,7 @@ int main(){
 	// priority_queue<int, vector<int>, greater<int>> 
 	
 	// maxHeap
+	// priority_queue<int, vector<int>, less<int>>
 	priority_queue<int> pq;
 	int a[10] = {1, 2, 3, 4, 5, 6};
 	

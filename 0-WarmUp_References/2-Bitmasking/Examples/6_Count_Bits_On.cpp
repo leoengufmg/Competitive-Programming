@@ -1,7 +1,6 @@
 /*
 Name: Leonardo R de Andrade
 Q6 -  calculate the bits that have 1
-
 */
 
 #include <iostream>

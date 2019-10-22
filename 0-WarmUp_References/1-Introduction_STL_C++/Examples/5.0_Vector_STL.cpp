@@ -11,13 +11,11 @@ using namespace std;
     pop_back(value)
     reserve(value) // avoid the process of dobling
     v.clear()
-
-
 */
 
 bool compare(int a, int b)
 {
-    return a>b;
+    return a > b;
 }
 
 int main(){

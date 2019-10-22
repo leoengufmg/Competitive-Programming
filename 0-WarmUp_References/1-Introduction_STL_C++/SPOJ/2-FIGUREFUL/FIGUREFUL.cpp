@@ -1,8 +1,7 @@
 /*
 Exercise FIGUREFUL
-
+Find the pearson with two values of integer.
 */
-
 #include <iostream>
 #include <map>
 #include <bits/stdc++.h>

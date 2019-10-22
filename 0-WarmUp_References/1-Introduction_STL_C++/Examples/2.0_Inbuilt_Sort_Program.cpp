@@ -12,7 +12,7 @@ bool myCompare(int a, int b)
 }
 int main(){
     int a[] = {5,4,3,1,2,6,7};
-    int n = sizeof(a)/sizeof(int);
+    int n = (sizeof(a)/sizeof(int));
 
     // sort(a, a+n);
 

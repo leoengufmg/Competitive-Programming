@@ -6,6 +6,19 @@
 5 prime generation
 6 bit-masking, bitwise operations
 7 other miscellaneous
+
+BigInteger one = new BigInterger("1");
+BigInteger two = one.add(one);
+String s2 = sc.next();
+BigInteger three = new BigInteger(s2, 10);
+BigInteger B3 = new BigInteger(s3, 2);
+BigInteger B4 = new BigInteger(s4, 2);
+B3 = B3.multiply(B4);
+B3 = B3.add(B4);
+B3 = B3.divide(B4);
+B3 = B3.gcd(B4);
+B3 = B3.nextProbablePrime();
+B3 = B3.bitCount();
 */
 
 import java.math.BigInteger; 

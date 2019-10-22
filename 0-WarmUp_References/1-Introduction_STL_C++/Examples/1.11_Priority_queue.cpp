@@ -5,7 +5,7 @@ Name: Leonardo R. Andrade
 #include <iostream>
 #include <algorithm>
 #include <priority_queue>
-#include <bits/stdc++.h
+#include <bits/stdc++.h>
 using namespace std;
  
 int main(){

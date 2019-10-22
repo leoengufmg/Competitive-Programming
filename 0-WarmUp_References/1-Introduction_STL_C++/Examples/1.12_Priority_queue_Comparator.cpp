@@ -32,8 +32,8 @@ using namespace std;
 	 {
 		 // if a has higher priority, then a should apperar after b
 		 // now return the min value 
-		 if(a < b)
-				return false;
+		 if(a < b)	return false;
+		 
 		return true;
 	 }
  };
